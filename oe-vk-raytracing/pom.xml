@@ -28,5 +28,9 @@
 			<version>${oreon.version}</version>
 		</dependency>
 	</dependencies>
-  
+  <parent>
+	 	<groupId>org.oreon</groupId>
+	 	<artifactId>oreon-engine</artifactId>
+	 	<version>${oreon.version}</version>
+	</parent>
 </project>
